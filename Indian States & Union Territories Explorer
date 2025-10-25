@@ -1,0 +1,645 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/52d1b620bb4cdd6660783499bf9ea20e/b18e00d9-bf5a-42c8-904f-e664e0a24381/canvas-app/index.html?utm_source=perplexity
+Subject: Indian States & Union Territories Explorer
+Date: Sat, 25 Oct 2025 16:25:03 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--JAacjA15CrOfyNpUt89i7hCsN8c1nGTzZTllDg1YaR----"
+
+
+------MultipartBoundary--JAacjA15CrOfyNpUt89i7hCsN8c1nGTzZTllDg1YaR----
+Content-Type: text/html
+Content-ID: <frame-4CD5BF456CE7275EFE148E1DB7539352@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/52d1b620bb4cdd6660783499bf9ea20e/b18e00d9-bf5a-42c8-904f-e664e0a24381/canvas-app/index.html?utm_source=perplexity
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-aaf4f968-21d8-4560-9ae2-0d7a8e872f9b@mhtml.blink" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian States &amp; Union Territories Explorer</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🇮🇳 Indian States &amp; Union Territories Explorer</h1>
+            <p class="subtitle">Explore the Rich Diversity of India - 28 States &amp; 8 Union Territories</p>
+        </div>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search for a state or union territory...">
+            <div class="filter-btns">
+                <button class="btn btn-primary active">All (36)</button>
+                <button class="btn btn-secondary">States (28)</button>
+                <button class="btn btn-success">Union Territories (8)</button>
+                <button class="btn btn-primary" style="background: #e74c3c;">🎯 Quiz Mode</button>
+                <button class="btn btn-secondary" style="background: #27ae60;">🖨️ Print</button>
+                <button class="btn btn-primary" style="background: #9b59b6;">⚖️ Compare</button>
+                <button class="btn btn-success" style="background: #e67e22;">⭐ Favorites</button>
+                <button class="btn btn-primary" style="background: #34495e;">🌙 Dark Mode</button>
+                <button class="btn btn-secondary" style="background: #16a085;">🗺️ Map View</button>
+            <button class="btn btn-success" style="background: rgb(52, 152, 219);">📊 Statistics</button><button class="btn btn-success" style="background: rgb(142, 68, 173);">🎓 Learning Tools</button><button class="btn btn-success" style="background: rgb(230, 126, 34);">🌟 State of Day</button></div>
+        </div>
+
+        <div class="content">
+            <div id="statsBar" class="stats-bar">
+                <h3>📊 Quick Stats: Showing <span id="countDisplay">36</span> regions</h3>
+            <div class="sort-controls">
+                <span style="font-weight: 600; margin-right: 10px;">Sort by:</span>
+                <button class="sort-btn active">📝 Name</button>
+                <button class="sort-btn">📏 Area (Largest First)</button>
+            </div></div>
+            <div id="statesGrid" class="states-grid" style="display: grid;">
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Andaman and Nicobar Islands</div>
+                        <div class="state-capital">📍 Port Blair</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Andhra_Pradesh.svg/320px-Flag_of_Andhra_Pradesh.svg.png" alt="Andhra Pradesh flag" class="state-flag" style="display: none;">
+                        <div class="state-name">Andhra Pradesh</div>
+                        <div class="state-capital">📍 Amaravati</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Arunachal_Pradesh.svg/320px-Flag_of_Arunachal_Pradesh.svg.png" alt="Arunachal Pradesh flag" class="state-flag" style="display: none;">
+                        <div class="state-name">Arunachal Pradesh</div>
+                        <div class="state-capital">📍 Itanagar</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Assam_Flag%28old%29.svg/320px-Assam_Flag%28old%29.svg.png" alt="Assam flag" class="state-flag" style="display: none;">
+                        <div class="state-name">Assam</div>
+                        <div class="state-capital">📍 Dispur</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Bihar</div>
+                        <div class="state-capital">📍 Patna</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Chandigarh</div>
+                        <div class="state-capital">📍 Chandigarh</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Chhattisgarh</div>
+                        <div class="state-capital">📍 Raipur</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Dadra and Nagar Haveli and Daman and Diu</div>
+                        <div class="state-capital">📍 Daman</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Delhi</div>
+                        <div class="state-capital">📍 New Delhi</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Goa</div>
+                        <div class="state-capital">📍 Panaji</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Gujarat</div>
+                        <div class="state-capital">📍 Gandhinagar</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Haryana</div>
+                        <div class="state-capital">📍 Chandigarh</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Himachal Pradesh</div>
+                        <div class="state-capital">📍 Shimla</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Jammu and Kashmir</div>
+                        <div class="state-capital">📍 Srinagar (Summer), Jammu (Winter)</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Jharkhand</div>
+                        <div class="state-capital">📍 Ranchi</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Karnataka</div>
+                        <div class="state-capital">📍 Bengaluru</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Kerala</div>
+                        <div class="state-capital">📍 Thiruvananthapuram</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Ladakh</div>
+                        <div class="state-capital">📍 Leh</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Lakshadweep</div>
+                        <div class="state-capital">📍 Kavaratti</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Madhya Pradesh</div>
+                        <div class="state-capital">📍 Bhopal</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Maharashtra</div>
+                        <div class="state-capital">📍 Mumbai</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Manipur</div>
+                        <div class="state-capital">📍 Imphal</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Meghalaya</div>
+                        <div class="state-capital">📍 Shillong</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Mizoram</div>
+                        <div class="state-capital">📍 Aizawl</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Nagaland</div>
+                        <div class="state-capital">📍 Kohima</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Odisha</div>
+                        <div class="state-capital">📍 Bhubaneswar</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card ut" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Puducherry</div>
+                        <div class="state-capital">📍 Puducherry</div>
+                        <span class="state-type">Union Territory</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Punjab</div>
+                        <div class="state-capital">📍 Chandigarh</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Rajasthan</div>
+                        <div class="state-capital">📍 Jaipur</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Sikkim</div>
+                        <div class="state-capital">📍 Gangtok</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Tamil Nadu</div>
+                        <div class="state-capital">📍 Chennai</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Telangana</div>
+                        <div class="state-capital">📍 Hyderabad</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Tripura</div>
+                        <div class="state-capital">📍 Agartala</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Uttar Pradesh</div>
+                        <div class="state-capital">📍 Lucknow</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">Uttarakhand</div>
+                        <div class="state-capital">📍 Dehradun</div>
+                        <span class="state-type">State</span>
+                    </div>
+                
+                    <div class="state-card state" style="position: relative;">
+                        <div class="favorite-badge">
+                            ☆
+                        </div>
+                        
+                        <div class="state-name">West Bengal</div>
+                        <div class="state-capital">📍 Kolkata</div>
+                        <span class="state-type">State</span>
+                    </div>
+                </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No results found. Try a different search term.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="detailModal" class="detail-modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <div id="comparePanel" class="compare-container" style="display: block;">
+                    <h3 style="margin-bottom: 15px; color: #667eea;">⚖️ Compare States</h3>
+                    <p style="color: #888; text-align: center;">Add states to compare (max 3)</p>
+                </div>
+
+
+</body></html>
+------MultipartBoundary--JAacjA15CrOfyNpUt89i7hCsN8c1nGTzZTllDg1YaR----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-aaf4f968-21d8-4560-9ae2-0d7a8e872f9b@mhtml.blink
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%); min-height: 100vh; padding: 20px; }
+
+.container { max-width: 1200px; margin: 0px auto; background: white; border-radius: 20px; box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 60px; overflow: hidden; }
+
+.header { background: linear-gradient(135deg, rgb(255, 153, 51) 0%, rgb(255, 153, 51) 33%, rgb(255, 255, 255) 33%, rgb(255, 255, 255) 66%, rgb(19, 136, 8) 66%, rgb(19, 136, 8) 100%); padding: 30px; text-align: center; position: relative; }
+
+.header::after { content: "🇮🇳"; font-size: 48px; position: absolute; right: 30px; top: 50%; transform: translateY(-50%); }
+
+h1 { color: rgb(0, 0, 128); font-size: 2.5em; text-shadow: rgba(0, 0, 0, 0.1) 2px 2px 4px; margin-bottom: 10px; }
+
+.subtitle { color: rgb(85, 85, 85); font-size: 1.1em; }
+
+.controls { padding: 30px; background: rgb(248, 249, 250); border-bottom: 3px solid rgb(233, 236, 239); display: flex; gap: 15px; flex-wrap: wrap; align-items: center; }
+
+.search-box { flex: 1 1 0%; min-width: 250px; padding: 12px 20px; border: 2px solid rgb(221, 221, 221); border-radius: 25px; font-size: 16px; transition: 0.3s; }
+
+.search-box:focus { outline: none; border-color: rgb(102, 126, 234); box-shadow: rgba(102, 126, 234, 0.3) 0px 0px 10px; }
+
+.filter-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.btn { padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; font-size: 14px; font-weight: 600; transition: 0.3s; text-transform: uppercase; letter-spacing: 0.5px; }
+
+.btn-primary { background: rgb(102, 126, 234); color: white; }
+
+.btn-secondary { background: rgb(255, 153, 51); color: white; }
+
+.btn-success { background: rgb(19, 136, 8); color: white; }
+
+.btn:hover { transform: translateY(-2px); box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px; }
+
+.btn.active { box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px inset; transform: scale(0.95); }
+
+.content { padding: 30px; }
+
+.states-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 30px; }
+
+.state-card { background: linear-gradient(135deg, rgb(245, 247, 250) 0%, rgb(195, 207, 226) 100%); border-radius: 15px; padding: 20px; cursor: pointer; transition: 0.3s; border: 3px solid transparent; position: relative; overflow: hidden; }
+
+.state-card::before { content: ""; position: absolute; top: -50%; right: -50%; width: 100%; height: 100%; background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent); transform: rotate(45deg); transition: 0.5s; }
+
+.state-card:hover::before { top: 150%; }
+
+.state-card:hover { transform: translateY(-5px); box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 25px; border-color: rgb(102, 126, 234); }
+
+.state-card.ut { background: linear-gradient(135deg, rgb(255, 234, 167) 0%, rgb(253, 203, 110) 100%); }
+
+.state-name { font-size: 1.3em; font-weight: bold; color: rgb(45, 52, 54); margin-bottom: 8px; }
+
+.state-capital { color: rgb(99, 110, 114); font-size: 0.95em; margin-bottom: 15px; }
+
+.state-type { display: inline-block; padding: 4px 12px; background: rgba(255, 255, 255, 0.8); border-radius: 15px; font-size: 0.8em; font-weight: 600; color: rgb(102, 126, 234); }
+
+.state-card.ut .state-type { color: rgb(225, 112, 85); }
+
+.detail-modal { display: none; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); z-index: 1000; overflow-y: auto; padding: 20px; }
+
+.modal-content { background: white; max-width: 900px; margin: 20px auto; border-radius: 20px; padding: 40px; position: relative; animation: 0.3s ease-out 0s 1 normal none running slideIn; }
+
+@keyframes slideIn { 
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+.close-btn { position: absolute; top: 20px; right: 20px; font-size: 30px; cursor: pointer; color: rgb(136, 136, 136); transition: color 0.3s; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: rgb(248, 249, 250); }
+
+.close-btn:hover { color: rgb(231, 76, 60); background: rgb(255, 229, 229); }
+
+.modal-header { border-bottom: 3px solid rgb(102, 126, 234); padding-bottom: 20px; margin-bottom: 30px; }
+
+.modal-title { font-size: 2.5em; color: rgb(45, 52, 54); margin-bottom: 10px; }
+
+.modal-subtitle { font-size: 1.2em; color: rgb(99, 110, 114); }
+
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+
+.info-item { background: rgb(248, 249, 250); padding: 20px; border-radius: 12px; border-left: 4px solid rgb(102, 126, 234); transition: 0.3s; }
+
+.info-item:hover { transform: translateX(5px); box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px; }
+
+.info-label { font-weight: 600; color: rgb(102, 126, 234); font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+
+.info-value { color: rgb(45, 52, 54); font-size: 1.1em; line-height: 1.5; }
+
+.section-title { font-size: 1.8em; color: rgb(45, 52, 54); margin: 30px 0px 20px; padding-bottom: 10px; border-bottom: 2px solid rgb(233, 236, 239); }
+
+.emoji { font-size: 1.2em; margin-right: 8px; }
+
+.stats-bar { background: rgb(248, 249, 250); padding: 20px; border-radius: 10px; margin: 20px 0px; text-align: center; }
+
+.stats-bar h3 { color: rgb(102, 126, 234); margin-bottom: 10px; }
+
+.monuments-list { background: rgb(255, 243, 205); padding: 20px; border-radius: 12px; border-left: 4px solid rgb(255, 193, 7); margin: 20px 0px; }
+
+.monuments-list ul { list-style: none; padding-left: 0px; }
+
+.monuments-list li { padding: 8px 0px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.monuments-list li:last-child { border-bottom: none; }
+
+.monuments-list li::before { content: "🏛️ "; margin-right: 8px; }
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.8em; }
+  .controls { flex-direction: column; }
+  .search-box { width: 100%; }
+  .states-grid { grid-template-columns: 1fr; }
+  .modal-content { padding: 20px; }
+  .modal-title { font-size: 1.8em; }
+  .info-grid { grid-template-columns: 1fr; }
+}
+
+.loading { text-align: center; padding: 50px; font-size: 1.2em; color: rgb(102, 126, 234); }
+
+.no-results { text-align: center; padding: 50px; color: rgb(136, 136, 136); font-size: 1.2em; }
+
+.state-flag { width: 100%; height: 150px; object-fit: cover; border-radius: 10px 10px 0px 0px; margin: -20px -20px 15px; border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
+
+.quiz-container { background: white; max-width: 800px; margin: 20px auto; padding: 40px; border-radius: 20px; box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px; }
+
+.quiz-header { text-align: center; margin-bottom: 30px; }
+
+.quiz-question { font-size: 1.5em; color: rgb(45, 52, 54); margin-bottom: 30px; padding: 20px; background: rgb(248, 249, 250); border-radius: 10px; border-left: 5px solid rgb(102, 126, 234); }
+
+.quiz-options { display: grid; gap: 15px; }
+
+.quiz-option { padding: 15px 20px; background: rgb(248, 249, 250); border: 2px solid rgb(221, 221, 221); border-radius: 10px; cursor: pointer; transition: 0.3s; font-size: 1.1em; }
+
+.quiz-option:hover { background: rgb(233, 236, 239); border-color: rgb(102, 126, 234); transform: translateX(5px); }
+
+.quiz-option.correct { background: rgb(212, 237, 218); border-color: rgb(40, 167, 69); }
+
+.quiz-option.wrong { background: rgb(248, 215, 218); border-color: rgb(220, 53, 69); }
+
+.quiz-score { text-align: center; font-size: 1.3em; margin: 20px 0px; padding: 15px; background: rgb(102, 126, 234); color: white; border-radius: 10px; }
+
+.quiz-controls { display: flex; gap: 15px; justify-content: center; margin-top: 30px; }
+
+.favorite-badge { position: absolute; top: 10px; right: 10px; font-size: 1.5em; cursor: pointer; z-index: 10; transition: transform 0.3s; }
+
+.favorite-badge:hover { transform: scale(1.3); }
+
+.compare-container { position: fixed; bottom: 20px; right: 20px; background: white; padding: 20px; border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px; max-width: 300px; display: none; z-index: 999; }
+
+.compare-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0px; border-bottom: 1px solid rgb(238, 238, 238); }
+
+.compare-item:last-child { border-bottom: none; }
+
+.stats-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0px; }
+
+.stat-card { background: linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%); color: white; padding: 20px; border-radius: 10px; text-align: center; }
+
+.stat-number { font-size: 2.5em; font-weight: bold; margin-bottom: 5px; }
+
+.stat-label { font-size: 0.9em; opacity: 0.9; }
+
+.fun-fact { background: linear-gradient(135deg, rgb(255, 234, 167) 0%, rgb(253, 203, 110) 100%); padding: 20px; border-radius: 12px; margin: 20px 0px; border-left: 5px solid rgb(225, 112, 85); }
+
+.fun-fact h4 { color: rgb(45, 52, 54); margin-bottom: 10px; }
+
+.dark-mode { background: linear-gradient(135deg, rgb(44, 62, 80) 0%, rgb(52, 73, 94) 100%); }
+
+.dark-mode .container { background: rgb(44, 62, 80); color: rgb(236, 240, 241); }
+
+.dark-mode .state-card { background: linear-gradient(135deg, rgb(52, 73, 94) 0%, rgb(44, 62, 80) 100%); color: rgb(236, 240, 241); }
+
+.dark-mode .state-name, .dark-mode .modal-title, .dark-mode .section-title { color: rgb(236, 240, 241); }
+
+.dark-mode .modal-content { background: rgb(52, 73, 94); color: rgb(236, 240, 241); }
+
+.dark-mode .info-item { background: rgb(44, 62, 80); }
+
+.dark-mode .quiz-question, .dark-mode .quiz-option { background: rgb(44, 62, 80); color: rgb(236, 240, 241); }
+
+.map-container { background: white; padding: 30px; border-radius: 15px; text-align: center; }
+
+.map-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 20px 0px; }
+
+.map-region { padding: 20px; background: linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%); color: white; border-radius: 10px; cursor: pointer; transition: 0.3s; font-weight: 600; }
+
+.map-region:hover { transform: scale(1.05); box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 25px; }
+
+.difficulty-selector { display: flex; gap: 10px; justify-content: center; margin: 20px 0px; }
+
+.difficulty-btn { padding: 10px 20px; border: 2px solid rgb(102, 126, 234); background: white; color: rgb(102, 126, 234); border-radius: 10px; cursor: pointer; font-weight: 600; transition: 0.3s; }
+
+.difficulty-btn.selected { background: rgb(102, 126, 234); color: white; }
+
+.quiz-history { background: rgb(248, 249, 250); padding: 20px; border-radius: 10px; margin: 20px 0px; }
+
+.quiz-history-item { display: flex; justify-content: space-between; padding: 10px; border-bottom: 1px solid rgb(221, 221, 221); }
+
+.sort-controls { display: flex; gap: 10px; margin: 10px 0px; flex-wrap: wrap; }
+
+.sort-btn { padding: 8px 15px; background: rgb(248, 249, 250); border: 2px solid rgb(221, 221, 221); border-radius: 8px; cursor: pointer; font-size: 0.9em; transition: 0.3s; }
+
+.sort-btn.active { background: rgb(102, 126, 234); color: white; border-color: rgb(102, 126, 234); }
+
+@media print {
+  .controls, .header::after, .btn, .close-btn, .compare-container, .favorite-badge { display: none !important; }
+  .container { box-shadow: none; }
+  .state-card { break-inside: avoid; }
+}
+------MultipartBoundary--JAacjA15CrOfyNpUt89i7hCsN8c1nGTzZTllDg1YaR------
